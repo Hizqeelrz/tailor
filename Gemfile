@@ -57,3 +57,5 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'simple_form'
 gem "slim-rails"
 gem "paperclip"
+gem 'momentjs-rails', '>= 2.9.0'
+gem 'bootstrap3-datetimepicker-rails', '~> 4.17.47'

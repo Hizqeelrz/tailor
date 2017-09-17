@@ -1,3 +1,9 @@
 h1 Dashboard
 - if @user.chief_designer?
 	= render "chief_designer"
+- elsif @user.gents_master?
+	= render "gents_master"
+- elsif @user.ladies_master?
+	= render "ladies_master"
+- elsif @user.tailor?
+	= render "tailor"			
